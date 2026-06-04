@@ -77,7 +77,7 @@ Swagger : https://decode-api-3f85320eb5b9.herokuapp.com/api-docs/
 
 ---
 
-## Bonus - 5 points
+## Bonus - 4 points
 
 - Upload d'image sur un produit via un package comme file_picker ou image_picker ou les deux.
 - Affichage de messages de succès/erreur après l'ajout, modification ou suppression d'un produit.
@@ -85,6 +85,11 @@ Swagger : https://decode-api-3f85320eb5b9.herokuapp.com/api-docs/
 - Scroll infini pour charger plus de produits.
 
 ---
+
+## Qualité du code - 1 point
+
+- Code propre, lisible et bien structuré.
+- Utilisation de bonnes pratiques Flutter
 
 ## Rendu
 
