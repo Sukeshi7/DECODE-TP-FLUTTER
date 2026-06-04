@@ -18,7 +18,7 @@ class ApiService {
   ApiService._internal();
 
   final client = http.Client();
-  final baseUrl = 'http://192.168.190.141:8080/v1';
+  final baseUrl = 'https://decode-api-3f85320eb5b9.herokuapp.com/v1';
 
   Future<T> request<T>({
     required String uri,
