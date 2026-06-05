@@ -14,7 +14,7 @@ class ProductRepository {
       queryParams: {
         'page': page.toString(),
         'limit': limit.toString(),
-        if (search != null && search.isNotEmpty) 'search': search,
+        if (search != null && search.isNotEmpty) 'searchValue': search,
       },
       parser: (res) => PaginatedResponse.fromJson(
         res,
