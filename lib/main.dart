@@ -4,6 +4,7 @@ import 'package:toastification/toastification.dart';
 
 import 'config/router.dart';
 import 'config/theme.dart';
+import 'notifiers/product_notifier.dart';
 import 'notifiers/session_notifier.dart';
 import 'notifiers/theme_notifier.dart';
 import 'screens/loading_screen.dart';
@@ -14,6 +15,7 @@ void main() {
     providers: [
       ChangeNotifierProvider(create: (_) => ThemeNotifier()),
       ChangeNotifierProvider(create: (_) => SessionNotifier()),
+      ChangeNotifierProvider(create: (_) => ProductNotifier())
     ],
     child: const MyApp(),
   );
